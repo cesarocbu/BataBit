@@ -492,18 +492,20 @@ background-color: var(--soft-blue);
 .plans-container--slider {
     display: flex;
     justify-content: space-between;
-    height: 316px;
+    height: 330px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    scrollbar-width: none;
 }
 
 
 .plans-container--card {
     position: relative;
+    scrollbar-width: none;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 216px;
     max-width: 300px;
     height: 250px;
     margin: 50px 17px;
@@ -513,9 +515,6 @@ background-color: var(--soft-blue);
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.20);
 }
 
-.plans-container--card:nth-child(2){
-    margin-top: 20px;
-}
 
 .recommended {
     position: absolute;
