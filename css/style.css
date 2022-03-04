@@ -21,6 +21,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -308,7 +309,7 @@ main {
 .currency-table--date p,
 .comissions-table--date p {
     font-size: 1.2rem;
-    font-height: 1.5rem;
+    line-height: 1.5rem;
     font-weight: 300;
     color: var(--warm-black);
 }
@@ -453,3 +454,4 @@ background-color: var(--soft-blue);
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
