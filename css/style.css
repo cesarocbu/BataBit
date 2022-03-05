@@ -525,13 +525,13 @@ background-color: var(--soft-blue);
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    scrollbar-width: none;
+
 }
 
 
 .plans-container--card {
     position: relative;
-    scrollbar-width: none;
+
     scroll-snap-align: center;
     width: 70%;
     min-width: 190px;
