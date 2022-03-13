@@ -42,6 +42,10 @@ header img {
     margin-top: 60px;
     align-self: center;
 }
+header img:hover {
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
 
 .header--title-container {
     width: 90%;
@@ -95,6 +99,10 @@ header img {
     background-image: url('../assets/icons/down-arrow.svg');
 }
 
+.header--button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
 
 main {
     width: 100%;
@@ -164,6 +172,12 @@ main {
     margin: 5px 0;
     padding: 0 15px;
 }
+
+.main-tables-container .data-tables:hover {
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
 .main-tables-container .data-tables:nth-child(1) {
     margin-left: 70px;
     margin-right: 20px;
@@ -450,6 +464,11 @@ background-color: var(--soft-blue);
     background-size: cover;
 }
 
+.product-detail--card:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
 .product--card-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -543,6 +562,10 @@ background-color: var(--soft-blue);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.20);
 }
+.plans-container--card:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
 
 
 .recommended {
@@ -597,6 +620,11 @@ background-color: var(--soft-blue);
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--warm-black);
+}
+
+.plan-card--ca:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
 }
 
 .plan-card--ca span {
